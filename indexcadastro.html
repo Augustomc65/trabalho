@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cadastro.js" defer></script>
+</head>
+<body>
+    <form id="formCadastro">
+        <p>Cadastro</p> 
+
+        <label for="Nome">Nome</label>
+        <input type="text" placeholder="Seu nome" id="Nome" required>
+
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Seu email" id="Email" required>
+
+        <label for="CPF">CPF</label>
+        <input type="text" placeholder="xxx.xxx.xxx-xx" id="CPF" oninput="mascara_cpf()" maxlength="14" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" placeholder="(31)99999-9999" id="telefone" oninput="mascara_telefone()" maxlength="14" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
+
+    
+
+
+    
+</body>
+</html>

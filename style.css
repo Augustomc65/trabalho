@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+    background-color: orange;
+}
+
+
+
+#button {
+    margin-top: 55px;
+    grid-column: 2;
+}
+
+
+button{
+    margin-right: 50px;
+    border-radius: 10%;
+    margin-top: 55px;
+    grid-column: 2;
+    background-position: 100px;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    border-radius: 60px;
+    transition: .2;
+    background-color: aqua;
+}
+
+input{
+
+    border: 0px;
+    border-bottom: solid 1px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;  
+    background-color: #fafafa;
+}
+
+
+label{
+    display: block;
+            font-size: 16px;
+            font-weight: 600;
+            color: #333; 
+            margin-bottom: 8px; 
+            transition: color 0.3s ease;
+            width: 100px;
+               
+}
+
+#grid1{
+    min-height: 40px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center; 
+    gap: 10px;  
+    
+}
+
+p{
+    grid-column: span 2;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.formCasdatro{
+
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center; 
+    gap: 10px;  
+}
+
+
+

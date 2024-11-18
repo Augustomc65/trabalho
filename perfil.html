@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    
+    <form id="formLogin">
+        <div id="grid1">
+            <p>Perfil</p>     
+            <label for="Nome">Nome</label>
+            <input type="text" placeholder="Seu nome" id="nomeUsuario" >
+
+            <label for="Email">Email</label>
+            <input type="email" id="emailUsuario" placeholder="Seu email" >
+
+            <label for="CPF">CPF</label>
+            <input type="text" id="cpfUsuario" placeholder="xxx.xxx.xxx-xx" oninput="mascara_cpf()" maxlength="14" >
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefoneUsuario" placeholder="(31)99999-9999" oninput="mascara_telefone()" maxlength="14" >
+
+            
+            <button  id="logoutBtn"> <a href="index.html">Sair</a></button>
+        </div>
+    </form>
+
+</body>
+</html>
